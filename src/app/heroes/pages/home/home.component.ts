@@ -10,5 +10,9 @@ import { Component } from '@angular/core';
   `]
 })
 export class HomeComponent {
-
+  sidebarItems = [
+    { label: 'Listado', icon: 'label', url: './listado' },
+    { label: 'Agregar', icon: 'add', url: './agregar' },
+    { label: 'Buscar', icon: 'search', url: './buscar' }
+  ];
 }
